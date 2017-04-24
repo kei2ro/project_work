@@ -1,0 +1,56 @@
+<h1>新メニュー開発をしよう！</h1>
+
+<%= form_tag(action: :resist_food) do %>
+  <div class="image_box">
+    <%= image_tag "ichigo.png", width: 120 %>
+    <%= check_box :new_food_selected, :food_num1, {}, "true", "false" %>
+    <div class="food_label"> <%= label_tag :name, "いちご" %> </div>
+  </div>
+  <div class="form_content">
+    <%= check_box :new_food_selected, :food_num2, {}, "true", "false" %>
+    <%= label_tag :name, "みかん" %>
+  </div>
+  <div class="form_content">
+    <%= check_box :new_food_selected, :food_num3, {}, "true", "false" %>
+    <%= label_tag :name, "もも" %>
+  </div>
+  <div class="form_content">
+    <%= check_box :new_food_selected, :food_num4, {}, "true", "false" %>
+    <%= label_tag :name, "くり" %>
+  </div>
+  <div class="form_content">
+    <%= check_box :new_food_selected, :food_num5, {}, "true", "false" %>
+    <%= label_tag :name, "ぶどう" %>
+  </div>
+  <div class="form_content">
+    <%= check_box :new_food_selected, :food_num6, {}, "true", "false" %>
+    <%= label_tag :name, "りんご" %>
+  </div>
+  <div class="form_content">
+    <%= check_box :new_food_selected, :food_num7, {}, "true", "false" %>
+    <%= label_tag :name, "かき" %>
+  </div>
+  <div class="form_content">
+    <%= check_box :new_food_selected, :food_num8, {}, "true", "false" %>
+    <%= label_tag :name, "めろん" %>
+  </div>
+  <div class="form_content">
+    <%= check_box :new_food_selected, :food_num9, {}, "true", "false" %>
+    <%= label_tag :name, "れもん" %>
+  </div>
+  <div class="form_content">
+    <%= check_box :new_food_selected, :food_num10, {}, "true", "false" %>
+    <%= label_tag :name, "みかん" %>
+  </div>
+  <div class="form_content">
+    <%= check_box :new_food_selected, :food_num11, {}, "true", "false" %>
+    <%= label_tag :name, "ばなな" %>
+  </div>
+  <div class="form_content">
+    <%= check_box :new_food_selected, :food_num12, {}, "true", "false" %>
+    <%= label_tag :name, "ぱくちー" %>
+  </div>
+  <div class="form_content submit_button">
+    <%= submit_tag '登録' %>
+  </div>
+<% end %>

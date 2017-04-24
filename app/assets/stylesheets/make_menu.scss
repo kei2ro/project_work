@@ -1,0 +1,19 @@
+// Place all the styles related to the make_menu controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.image_box {
+  width: 100px;
+  position: relative;
+}
+.image_box > img {
+  width: 100px;
+}
+.image_box input[type="checkbox"] {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  height: 100px;
+  
+}
